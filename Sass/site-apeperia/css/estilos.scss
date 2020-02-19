@@ -1,5 +1,6 @@
 $cor-padrao: #c24e4b;
 $cor-auxiliar: #1e2c35;
+$cor-branca: #fff;
 
 /** Geral **/
 body {
@@ -166,7 +167,7 @@ body {
   }
   
   .planos h2 {
-    color: #fff;
+    color: $cor-branca;
   }
   
   .plano {
@@ -182,7 +183,7 @@ body {
   }
   
   .plano h3 {
-    color: #fff;
+    color: $cor-branca;
     font-size: 1.8em;
     background: $cor-padrao;
     text-align: center;
@@ -220,7 +221,7 @@ body {
   .plano button {
     background: $cor-padrao;
     border: 0;
-    color: #fff;
+    color: $cor-branca;
     width: 210px;
     height: 38px;
     font-size: 1.2em;
@@ -318,7 +319,7 @@ body {
     margin: 0 auto;
     background: $cor-padrao;
     border: 0;
-    color: #fff;
+    color: $cor-branca;
     width: 210px;
     height: 38px;
     font-size: 1.2em;
@@ -392,7 +393,7 @@ body {
   }
   
   footer a {
-    color: #fff;
+    color: $cor-branca;
     text-decoration: none;
   }
   
