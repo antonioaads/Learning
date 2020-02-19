@@ -9,6 +9,11 @@ $cor-branca: #fff;
     border-radius: $raio; 
 }
 
+@mixin sombra-padrao {
+    -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
 
 /** Geral **/
 body {
@@ -108,7 +113,7 @@ body {
     padding: .6em;
     font-size: 1.2em;
     @include borda-arredondada;
-    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+@include sombra-padrao;
     font-weight: bold;
   }
   
@@ -233,7 +238,7 @@ body {
     height: 38px;
     font-size: 1.2em;
     @include borda-arredondada;
-    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+@include sombra-padrao;
     margin-left: 2em;
   }
   
@@ -329,7 +334,7 @@ body {
     height: 38px;
     font-size: 1.2em;
     @include borda-arredondada;
-    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+    @include sombra-padrao;
   }
   
   /** Footer **/
