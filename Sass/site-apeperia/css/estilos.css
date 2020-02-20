@@ -33,7 +33,6 @@ header {
   width: 100%;
   position: absolute;
 }
-
 header .container {
   position: relative;
 }
@@ -69,22 +68,18 @@ header .container {
   height: 330px;
   padding-top: 10em;
 }
-
 .destaque p {
   width: 30em;
 }
-
 .destaque p:first-child {
   width: 30em;
   font-size: 1.3em;
   line-height: 1.1;
 }
-
 .destaque p:first-child:first-line {
   font-size: 2.2em;
   font-weight: bold;
 }
-
 .destaque button {
   margin-top: 1em;
   background: #c24e4b;
@@ -109,7 +104,6 @@ header .container {
   column-count: 2;
   columns: 1;
 }
-
 .duas-colunas h3 {
   margin: 0;
 }
@@ -117,7 +111,6 @@ header .container {
 .sobre p {
   font: 0.9em/1.8 sans-serif;
 }
-
 .sobre p:first-child {
   margin-bottom: 3em;
 }
@@ -125,7 +118,6 @@ header .container {
 .plataformas {
   padding: 0;
 }
-
 .plataformas li {
   display: inline-block;
   width: 50px;
@@ -136,19 +128,15 @@ header .container {
   background-position: center;
   margin: 1em 1.5em 0 0;
 }
-
 .plataformas li:nth-child(1) {
   background-image: url(../imagens/logo-apple.png);
 }
-
 .plataformas li:nth-child(2) {
   background-image: url(../imagens/logo-android.png);
 }
-
 .plataformas li:nth-child(3) {
   background-image: url(../imagens/logo-windows.png);
 }
-
 .plataformas li:nth-child(4) {
   background-image: url(../imagens/logo-blackberry.png);
 }
@@ -157,7 +145,6 @@ header .container {
 .planos {
   background: #1e2c35;
 }
-
 .planos h2 {
   color: #fff;
 }
@@ -169,11 +156,9 @@ header .container {
   margin: 1em 0 0 1.4em;
   padding-bottom: 2em;
 }
-
 .plano:hover {
   background: #dedede;
 }
-
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
@@ -183,11 +168,23 @@ header .container {
   padding-top: 0.6em;
   margin-top: 0;
 }
-
 .plano div {
   text-align: center;
   color: #c24e4b;
   font-size: 2.75em;
+}
+.plano button {
+  background: #c24e4b;
+  border: 0;
+  color: #fff;
+  width: 210px;
+  height: 38px;
+  font-size: 1.2em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  margin-left: 2em;
 }
 
 .itens-plano {
@@ -205,20 +202,6 @@ header .container {
 }
 .itens-plano span {
   float: right;
-}
-
-.plano button {
-  background: #c24e4b;
-  border: 0;
-  color: #fff;
-  width: 210px;
-  height: 38px;
-  font-size: 1.2em;
-  -webkit-border-radius: 0.3em;
-  border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  margin-left: 2em;
 }
 
 .icone-check, .icone-x {
@@ -240,7 +223,6 @@ header .container {
   display: block;
   position: relative;
 }
-
 .blog::after {
   content: "";
   background: url(../imagens/fundo.png);
@@ -264,7 +246,6 @@ header .container {
 .post-destaque {
   margin-right: 2em;
 }
-
 .post-destaque img {
   width: 100%;
 }
@@ -277,7 +258,6 @@ header .container {
   height: 1.7em;
   display: block;
 }
-
 .posts-antigos a:hover {
   text-decoration: underline;
 }
@@ -295,11 +275,11 @@ form {
 
 .contato input,
 textarea {
-  width: 100%;
   margin-bottom: 0.8em;
-  padding: 4px 8px;
+  width: 100%;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
+  padding: 4px 8px;
   border: 2px solid #ccc;
 }
 
@@ -322,7 +302,6 @@ footer {
   display: block;
   position: relative;
 }
-
 footer::after {
   content: "";
   background: url(../imagens/fundo-rodape.png);
@@ -334,7 +313,6 @@ footer::after {
   position: absolute;
   z-index: -1;
 }
-
 footer::before {
   content: "";
   background: #1e2c35;
@@ -345,13 +323,11 @@ footer::before {
   position: absolute;
   z-index: -1;
 }
-
 footer .container {
   padding-top: 3em;
   height: 6.5em;
   position: relative;
 }
-
 footer .container img {
   width: 250px;
 }
@@ -361,14 +337,13 @@ footer .container img {
   position: absolute;
 }
 
-.menu-rodape ul li {
-  display: inline-block;
-  margin-left: 2em;
-}
-
 .menu-rodape {
   top: 1em;
   right: 0;
+}
+.menu-rodape ul li {
+  display: inline-block;
+  margin-left: 2em;
 }
 
 .social {
@@ -389,7 +364,6 @@ footer a {
 .social li {
   float: left;
 }
-
 .social li a {
   display: block;
   width: 55px;
@@ -399,20 +373,16 @@ footer a {
   background-repeat: no-repeat;
   margin-left: 1em;
 }
-
 .social a {
   background-position: top;
   background-size: 50px 50px;
 }
-
 .social a[href*=facebook] {
   background-image: url(../imagens/facebook.png);
 }
-
 .social a[href*=twitter] {
   background-image: url(../imagens/twitter.png);
 }
-
 .social a[href*=instagram] {
   background-image: url(../imagens/instagram.png);
 }
