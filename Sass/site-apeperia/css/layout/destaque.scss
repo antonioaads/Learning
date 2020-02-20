@@ -33,7 +33,7 @@
         font-weight: bold;
     }
 
-    @media (max-width: 980px) {
+    @media (max-width: $ponto-de-quebra) {
         font-size: 14px;
         height: 250px;
     }
