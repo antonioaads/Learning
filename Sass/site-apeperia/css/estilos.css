@@ -496,9 +496,11 @@ header .container {
     position: static;
     display: block;
     text-align: center;
+    width: auto;
   }
   .menu-principal li {
     margin: 0.4em;
+    width: auto;
   }
 }
 
@@ -684,6 +686,12 @@ header .container {
   display: inline-block;
   vertical-align: top;
 }
+@media (max-width: 980px) {
+  .post-destaque,
+.posts-antigos {
+    width: auto;
+  }
+}
 
 .post-destaque {
   margin-right: 2em;
@@ -713,6 +721,11 @@ header .container {
 form {
   margin: 0 auto;
   width: 50%;
+}
+@media (max-width: 980px) {
+  form {
+    width: auto;
+  }
 }
 
 .contato input,
@@ -822,16 +835,6 @@ footer a {
 }
 .social a[href*=instagram] {
   background-image: url(../imagens/instagram.png);
-}
-
-@media (max-width: 980px) {
-  .menu-principal,
-.menu-principal li,
-.post-destaque,
-.posts-antigos,
-form {
-    width: auto;
-  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
