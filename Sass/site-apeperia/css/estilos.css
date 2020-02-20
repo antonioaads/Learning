@@ -416,6 +416,11 @@ body {
   width: 940px;
   margin: 0 auto;
 }
+@media (max-width: 980px) {
+  .container {
+    width: 90%;
+  }
+}
 
 .titulo-secao {
   text-decoration: underline;
@@ -442,8 +447,27 @@ header {
   width: 100%;
   position: absolute;
 }
+@media (max-width: 980px) {
+  header {
+    height: auto;
+  }
+  header h1 {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+  header h1 img {
+    max-width: 100%;
+    margin: 0.5em auto;
+    display: block;
+  }
+}
 header .container {
   position: relative;
+}
+@media (max-width: 980px) {
+  header .container {
+    position: static;
+  }
 }
 
 .menu-principal {
@@ -466,6 +490,16 @@ header .container {
 }
 .menu-principal a:hover {
   text-decoration: underline;
+}
+@media (max-width: 980px) {
+  .menu-principal {
+    position: static;
+    display: block;
+    text-align: center;
+  }
+  .menu-principal li {
+    margin: 0.4em;
+  }
 }
 
 /** Destaque **/
@@ -498,6 +532,12 @@ header .container {
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
   font-weight: bold;
+}
+@media (max-width: 980px) {
+  .destaque {
+    font-size: 14px;
+    height: 250px;
+  }
 }
 
 /** Sobre **/
@@ -782,6 +822,16 @@ footer a {
 }
 .social a[href*=instagram] {
   background-image: url(../imagens/instagram.png);
+}
+
+@media (max-width: 980px) {
+  .menu-principal,
+.menu-principal li,
+.post-destaque,
+.posts-antigos,
+form {
+    width: auto;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
