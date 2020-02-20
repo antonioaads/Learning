@@ -1,3 +1,14 @@
+.social li a, .plataformas li {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.contato button, .plano button, .destaque button {
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -425,8 +436,8 @@ h2 {
 
 /** Header **/
 header {
-  border-top: 5px solid #7d2c2a;
-  background: rgba(48, 71, 86, 0.8);
+  border-top: 5px solid #b6413e;
+  background: rgba(39, 58, 69, 0.8);
   height: 90px;
   width: 100%;
   position: absolute;
@@ -480,14 +491,12 @@ header .container {
 }
 .destaque button {
   margin-top: 1em;
-  background: #7d2c2a;
+  background: #b6413e;
   border: 0;
   padding: 0.6em;
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
 
@@ -520,9 +529,6 @@ header .container {
   display: inline-block;
   width: 50px;
   height: 60px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   background-position: center;
   margin: 1em 1.5em 0 0;
 }
@@ -541,7 +547,7 @@ header .container {
 
 /** Planos **/
 .planos {
-  background: #304756;
+  background: #273a45;
 }
 .planos h2 {
   color: #fff;
@@ -560,7 +566,7 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: #7d2c2a;
+  background: #b6413e;
   text-align: center;
   height: 2em;
   padding-top: 0.6em;
@@ -568,11 +574,11 @@ header .container {
 }
 .plano div {
   text-align: center;
-  color: #7d2c2a;
+  color: #b6413e;
   font-size: 2.75em;
 }
 .plano button {
-  background: #7d2c2a;
+  background: #b6413e;
   border: 0;
   color: #fff;
   width: 210px;
@@ -580,8 +586,6 @@ header .container {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
 }
 
@@ -683,7 +687,7 @@ textarea {
 
 .contato button {
   margin: 0 auto;
-  background: #7d2c2a;
+  background: #b6413e;
   border: 0;
   color: #fff;
   width: 210px;
@@ -691,8 +695,6 @@ textarea {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
 /** Footer **/
@@ -713,7 +715,7 @@ footer::after {
 }
 footer::before {
   content: "";
-  background: #304756;
+  background: #273a45;
   top: 0;
   left: 0;
   bottom: 0;
@@ -766,9 +768,6 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   margin-left: 1em;
 }
 .social a {
