@@ -1,11 +1,11 @@
-@import 'variaveis';
-@import 'mixins';
+@import 'helpers/variaveis';
+@import 'helpers/mixins';
 
-@import 'geral';
-@import 'header';
-@import 'destaque';
-@import 'sobre';
-@import 'planos';
-@import 'blog';
-@import 'contato';
-@import 'footer';
+@import 'layout/geral';
+@import 'layout/header';
+@import 'layout/destaque';
+@import 'layout/sobre';
+@import 'layout/planos';
+@import 'layout/blog';
+@import 'layout/contato';
+@import 'layout/footer';
