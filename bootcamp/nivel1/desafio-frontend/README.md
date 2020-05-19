@@ -21,8 +21,8 @@
 
 ## Resultado
 
-<img alt="Resultado Desafio 03" src="https://github.com/antonioaads/bootcamp-desafio01-frontend/blob/master/resultado.PNG" />
+<img alt="Resultado Desafio 03" src="https://github.com/antonioaads/Learning/blob/master/bootcamp/nivel1/desafio-frontend/resultado.PNG" />
 
 ### Detalhes da Correção
 
-<img alt="Detalhes Correção Desafio 03" src="https://github.com/antonioaads/bootcamp-desafio01-frontend/blob/master/detalhes-solucao.PNG" />
+<img alt="Detalhes Correção Desafio 03" src="https://github.com/antonioaads/Learning/blob/master/bootcamp/nivel1/desafio-frontend/detalhes-correcao.PNG" />
