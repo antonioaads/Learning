@@ -1,10 +1,8 @@
 <h3 align="center">
-  Clone da Solução do Desafio 03: Conceitos do ReactJS
+  Solução do Desafio 03: Conceitos do ReactJS
 </h3>
 
-<p align="center">"O repositório utilizado para desenvolvimento desse desafio pode ser acessado através do
-<a target="_blank" href="https://github.com/antonioaads/Learning/tree/master/bootcamp/nivel1/desafio-frontend">link</a>, este repositório foi
-criado apenas para submissão no SkyLab"
+<p align="center">"Diretório utilizado para desenvolvimento do desafio 03 do GoStack"
 !</blockquote>
 
 <p align="center">
