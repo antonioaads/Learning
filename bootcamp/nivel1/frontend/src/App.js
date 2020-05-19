@@ -24,12 +24,25 @@ function App() {
     })
   }
 
+  function handleDeleteProject(id) {
+    api.delete(`projects/${id}`).then(() => {
+      const index = projects.findIndex(project => project.id === id);
+      const newProjects = projects;
+      newProjects.splice(index, 1);
+
+      if(index >= 0) setProjects([...newProjects]);
+    })
+  }
+
   return (
     <>
       <Header title="Projetos">Os projetos listados são:</Header>
  
       <ul>
-        {projects.map(project => <li key={project.id}>{project.title}</li>)}
+        {projects.map(project => 
+          <li key={project.id}>{project.title} 
+            <button type="button" onClick={() => handleDeleteProject(project.id)}>Deletar projeto</button>
+          </li>)}
       </ul>
 
       <button type="button" onClick={handleAddProject}>Adicionar projeto</button>
