@@ -18,6 +18,6 @@
 * **Sass e Compass: Descomplicando o CSS**
   * [Link do curso](https://www.alura.com.br/curso-online-sass)
   * [Certificado](https://cursos.alura.com.br/user/antonioaads/course/sass/certificate)
-* GoStack - RocketSeat
+* **GoStack - RocketSeat**
   * [Link do curso](https://rocketseat.com.br/gostack)
   * *Em Progresso*
