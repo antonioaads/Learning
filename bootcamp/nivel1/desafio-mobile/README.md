@@ -1,10 +1,8 @@
 <h3 align="center">
-  Clone da Solução do Desafio 04: Conceitos do React Native
+  Solução do Desafio 04: Conceitos do React Native
 </h3>
 
-<p align="center">"O repositório utilizado para desenvolvimento desse desafio pode ser acessado através do
-<a target="_blank" https://github.com/antonioaads/Learning/tree/master/bootcamp/nivel1/desafio-mobile">link</a>, este repositório foi
-criado apenas para submissão no SkyLab"
+<p align="center">"Diretório utilizado para desenvolvimento do desafio 04 do GoStack"
 !</blockquote>
 
 <p align="center">
@@ -23,8 +21,11 @@ criado apenas para submissão no SkyLab"
 
 ## Resultado
 
-<img alt="Resultado Desafio 03" src="https://github.com/antonioaads/bootcamp-desafio01-frontend/blob/master/resultado.PNG" />
+<img alt="Screenshot Desafio 04" src=".github/screenshot.png" width="200px" />
+
+### Correção
+<img alt="Resultado Desafio 04" src=".github/resultado.PNG" />
 
 ### Detalhes da Correção
 
-<img alt="Detalhes Correção Desafio 03" src="https://github.com/antonioaads/bootcamp-desafio01-frontend/blob/master/detalhes-solucao.PNG" />
+<img alt="Detalhes Correção Desafio 04" src=".github/detalhes.PNG" />
