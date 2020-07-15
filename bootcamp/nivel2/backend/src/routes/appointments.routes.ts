@@ -1,5 +1,7 @@
 import { Router } from 'express';
 import { uuid } from 'uuidv4';
+import { startOfHour, parseISO } from 'date-fns';
+
 const appointmentsRouter = Router();
 
 const appointments = [];
